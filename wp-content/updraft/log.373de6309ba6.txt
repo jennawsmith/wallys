@@ -1,0 +1,165 @@
+0000.001 (0) Opened log file at time: Sat, 29 Jul 2017 23:46:13 +0000 on http://localhost:8888
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 7.0.15 (apache2handler, Darwin Jennas-MacBook-Pro.local 16.6.0 Darwin Kernel Version 16.6.0: Fri Apr 14 16:21:16 PDT 2017; root:xnu-3789.60.24~6/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 21.9M | 6M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 932788.5 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.008 (0) Semaphore (fd, wp_options) being initialised
+0000.011 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.013 (0) Set semaphore last lock (fd) time to 2017-07-29 23:46:13
+0000.014 (0) Semaphore lock (fd) complete
+0000.018 (0) Backup run: resumption=0, nonce=373de6309ba6, begun at=1501371973 (0s ago), job type=backup
+0000.019 (0) Scheduling a resumption (1) after 300 seconds (1501372273) in case this run gets aborted
+0000.086 (0) Checking if we have a zip executable available
+0000.089 (0) Testing: /usr/bin/zip
+0000.096 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.097 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.099 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.100 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.107 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.109 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.119 (0) Working binary zip found: /usr/bin/zip
+0000.122 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.122 (0) Creation of backups of directories: beginning
+0000.126 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.220 (0) Total entities for the zip file: 274 directories, 1922 files (0 skipped as non-modified), 30.3 MB
+0000.227 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.232 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.235 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.238 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.242 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.243 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.9 MB, 1922 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.768 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: size is now: 6.10 MB
+0001.774 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 600 files added (on-disk size: 6253.6 KB)
+0001.779 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 700 files added (on-disk size: 6253.6 KB)
+0001.783 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 800 files added (on-disk size: 6253.6 KB)
+0001.787 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 900 files added (on-disk size: 6253.6 KB)
+0001.790 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1000 files added (on-disk size: 6253.6 KB)
+0001.791 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 1922 files batched, 501 (1002) added so far); re-opening (prior size: 6253.6 KB)
+0002.139 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1100 files added (on-disk size: 7079.4 KB)
+0002.143 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1200 files added (on-disk size: 7079.4 KB)
+0002.147 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1300 files added (on-disk size: 7079.4 KB)
+0002.151 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1400 files added (on-disk size: 7079.4 KB)
+0002.155 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1500 files added (on-disk size: 7079.4 KB)
+0002.156 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 1922 files batched, 501 (1503) added so far); re-opening (prior size: 7079.4 KB)
+0002.653 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1600 files added (on-disk size: 7695.5 KB)
+0002.658 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1700 files added (on-disk size: 7695.5 KB)
+0002.661 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1800 files added (on-disk size: 7695.5 KB)
+0002.665 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: 1900 files added (on-disk size: 7695.5 KB)
+0003.852 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip.tmp: size is now: 10.00 MB
+0004.104 (0) Created plugins zip (0) - 10239.7 KB in 4 s (2575.4 KB/s) (sha1: e75b6db3212fd793e2e9fd85a3156a13aa2eea3d, sha256: 29569ccdd4cec8d122ba2a4c938c325f9320beccb0eee870ee645a5f5af9d881)
+0004.107 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.113 (0) Total entities for the zip file: 34 directories, 191 files (0 skipped as non-modified), 2.5 MB
+0004.117 (0) Zip: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.568 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-themes.zip.tmp: size is now: 1.50 MB
+0004.636 (0) Created themes zip (0) - 1546.1 KB in 0.5 s (2926.4 KB/s) (sha1: 9451389d3455e041ac06ef0c1c1ca5ff5c26a79f, sha256: 5c31c0bfa4df2ded449210e0708ad682fb10818782178b43f99c589daf6da649)
+0004.639 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.640 (0) Looking for candidates to back up in: /Volumes/My Passport for Mac/Interactivity/wallys_wp/wp-content/uploads
+0004.640 (0) finding files: 2017: adding to list (1)
+0004.641 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.644 (0) Total entities for the zip file: 2 directories, 6 files (0 skipped as non-modified), 0.1 MB
+0004.666 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-uploads.zip.tmp: size is now: 0.10 MB
+0004.674 (0) Created uploads zip (0) - 89.5 KB in 0 s (2816.2 KB/s) (sha1: 495defd08825cb27b26e797a85f0bb732ab9517a, sha256: ceb1014a887962260c8fa6cd80c812a3384f1649419962b1430d884f91b89cf9)
+0004.677 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.678 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.679 (0) Looking for candidates to back up in: /Volumes/My Passport for Mac/Interactivity/wallys_wp/wp-content
+0004.680 (0) finding files: .DS_Store: adding to list (1)
+0004.681 (0) finding files: index.php: adding to list (2)
+0004.682 (0) finding files: plugins: skipping: this is the plugins directory
+0004.683 (0) finding files: themes: skipping: this is the themes directory
+0004.683 (0) finding files: updraft: skipping: this is the updraft directory
+0004.684 (0) finding files: uploads: skipping: this is the uploads directory
+0004.687 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0004.712 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-others.zip.tmp: size is now: 0.00 MB
+0004.722 (0) Created others zip (0) - 0.5 KB in 0 s (15 KB/s) (sha1: adb3a57a0e26c87021b014427606a716ca75794f, sha256: 7aa0fd1fe8086f448b4ac29c7c0d4a91a0f1e2cc7fbfb8392b15acad8b578da0)
+0004.728 (0) Saving backup status to database (elements: 8)
+0004.730 (0) Beginning creation of database dump (WordPress DB)
+0004.770 (0) Table wp_options: Total expected rows (approximate): 130
+0004.817 (0) Table wp_options: Total rows added: 167 in 0.05 seconds
+0004.822 (0) Table wp_options: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_options.table.gz - 125.7 KB)
+0004.827 (0) Table wp_users: Total expected rows (approximate): 1
+0004.831 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0004.833 (0) Table wp_users: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_users.table.gz - 0.5 KB)
+0004.837 (0) Table wp_usermeta: Total expected rows (approximate): 25
+0004.841 (0) Table wp_usermeta: Total rows added: 25 in 0.00 seconds
+0004.843 (0) Table wp_usermeta: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_usermeta.table.gz - 2 KB)
+0004.847 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0004.850 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.851 (0) Table wp_commentmeta: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0004.855 (0) Table wp_comments: Total expected rows (approximate): 1
+0004.859 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0004.861 (0) Table wp_comments: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_comments.table.gz - 0.7 KB)
+0004.866 (0) Table wp_links: Total expected rows (approximate): 0
+0004.870 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0004.871 (0) Table wp_links: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_links.table.gz - 0.4 KB)
+0004.875 (0) Table wp_postmeta: Total expected rows (approximate): 117
+0004.880 (0) Table wp_postmeta: Total rows added: 117 in 0.00 seconds
+0004.881 (0) Table wp_postmeta: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_postmeta.table.gz - 2.2 KB)
+0004.885 (0) Table wp_posts: Total expected rows (approximate): 32
+0004.890 (0) Table wp_posts: Total rows added: 32 in 0.00 seconds
+0004.892 (0) Table wp_posts: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_posts.table.gz - 2.4 KB)
+0004.896 (0) Table wp_term_relationships: Total expected rows (approximate): 6
+0004.899 (0) Table wp_term_relationships: Total rows added: 6 in 0.00 seconds
+0004.900 (0) Table wp_term_relationships: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0004.904 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0004.908 (0) Table wp_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0004.909 (0) Table wp_term_taxonomy: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0004.914 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0004.917 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0004.919 (0) Table wp_termmeta: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_termmeta.table.gz - 0.4 KB)
+0004.923 (0) Table wp_terms: Total expected rows (approximate): 2
+0004.927 (0) Table wp_terms: Total rows added: 2 in 0.00 seconds
+0004.929 (0) Table wp_terms: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_terms.table.gz - 0.4 KB)
+0004.932 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0004.935 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0004.937 (0) Table wp_yoast_seo_links: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0004.940 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 7
+0004.944 (0) Table wp_yoast_seo_meta: Total rows added: 7 in 0.00 seconds
+0004.945 (0) Table wp_yoast_seo_meta: finishing file (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_yoast_seo_meta.table.gz - 0.4 KB)
+0004.948 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_options.table.gz (1/14): adding to final database dump
+0004.991 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_users.table.gz (2/14): adding to final database dump
+0004.994 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_usermeta.table.gz (3/14): adding to final database dump
+0004.996 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_commentmeta.table.gz (4/14): adding to final database dump
+0004.997 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_comments.table.gz (5/14): adding to final database dump
+0004.999 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_links.table.gz (6/14): adding to final database dump
+0005.000 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_postmeta.table.gz (7/14): adding to final database dump
+0005.002 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_posts.table.gz (8/14): adding to final database dump
+0005.004 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_term_relationships.table.gz (9/14): adding to final database dump
+0005.004 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_term_taxonomy.table.gz (10/14): adding to final database dump
+0005.005 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_termmeta.table.gz (11/14): adding to final database dump
+0005.006 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_terms.table.gz (12/14): adding to final database dump
+0005.007 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_yoast_seo_links.table.gz (13/14): adding to final database dump
+0005.008 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db-table-wp_yoast_seo_meta.table.gz (14/14): adding to final database dump
+0005.009 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db.gz: finished writing out complete database file (104 KB)
+0005.020 (0) Total database tables backed up: 14 (backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db.gz, size: 136252, sha256)
+0005.026 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.027 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0005.028 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0005.028 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0005.029 (0) backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.030 (0) Saving backup history. Total backup size: 11.7 MB
+0005.032 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0005.035 (0) Cloud backup selection (1/1): none (last)
+0005.036 (0) No remote despatch: user chose no remote backup service
+0005.038 (0) Recording as successfully uploaded: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-plugins.zip (8cc4a92bf8d5962caa5b8480c94e4899)
+0005.045 (0) Recording as successfully uploaded: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-themes.zip (f16595f8f3d2548e675ea8e712483501)
+0005.050 (0) Recording as successfully uploaded: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-uploads.zip (ff2111028d4bfb3aad9357f0f76b4fda)
+0005.055 (0) Recording as successfully uploaded: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-others.zip (7c6a382cce5d166e8dba2c485350ac06)
+0005.060 (0) Recording as successfully uploaded: backup_2017-07-29-2346_Wally039s_Printing_373de6309ba6-db.gz (9841a84b59edf6c0a4ae5194b7123568)
+0005.066 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.067 (0) Number of backup sets in history: 1; groups (db): 1
+0005.068 (0) Examining (for databases) backup set with group_id=0, nonce=373de6309ba6, datestamp=1501371973 (Jul 29 2017 23:46:13)
+0005.069 (0) This backup set is the backup set just made, so will not be deleted.
+0005.070 (0) Number of backup sets in history: 1; groups (files): 1
+0005.070 (0) Examining (for files) backup set with nonce=373de6309ba6, datestamp=1501371973 (Jul 29 2017 23:46:13)
+0005.071 (0) This backup set is the backup set just made, so will not be deleted.
+0005.072 (0) This backup set is the backup set just made, so will not be deleted.
+0005.072 (0) This backup set is the backup set just made, so will not be deleted.
+0005.072 (0) This backup set is the backup set just made, so will not be deleted.
+0005.072 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.073 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0005.076 (0) Resume backup (373de6309ba6, 0): finish run
+0005.078 (0) Decremented the semaphore (fd) by 1
+0005.079 (0) Semaphore (fd) unlocked
+0005.080 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0005.084 (0) No email will/can be sent - the user has not configured an email address.
+0005.084 (0) The backup apparently succeeded and is now complete
