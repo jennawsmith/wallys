@@ -1,4 +1,4 @@
-û}Y<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:2:"43";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-07-30 03:14:51";s:13:"post_date_gmt";s:19:"2017-07-30 03:14:51";s:12:"post_content";s:5659:"<div class="post-wrap-inner has-thumb"><header class="single-post-header">
+’Y<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:2:"43";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-07-30 03:14:51";s:13:"post_date_gmt";s:19:"2017-07-30 03:14:51";s:12:"post_content";s:5659:"<div class="post-wrap-inner has-thumb"><header class="single-post-header">
 <h1 class="post-title">5 Ways to Reach More People With Your Event Flyer</h1>
 <p class="post-title">You may already know that event flyers â€” as old-school as they may seem â€” are an effective way to promote and sell tickets to your event. Wally's can help with that!</p>
 
